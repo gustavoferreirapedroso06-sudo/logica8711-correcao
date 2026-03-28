@@ -3,14 +3,15 @@
 
 int main(){ 
 
-int num1 = 8;
-int num2 = 2;
-int soma, subt, mult, div;
+int idade = 16;
+float altura = 1.74;
+std::string nome = "Gustavo";
 
-soma = num1 + num2;
-subt = num1 - num2;
-mult = num1 * num2;
-div = num1 / num2;
+
+std::cout<<"meu nome e "<<nome<<"."<<std::endl;
+std::cout<<"minha altura e "<<altura<<"."<<std::endl;
+std::cout<<"minha idade e  "<<idade<<"."<<std::endl;
+
 
 
         return 0;
