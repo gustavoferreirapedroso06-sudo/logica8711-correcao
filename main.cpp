@@ -3,30 +3,14 @@
 
 int main(){ 
 
-std::string nome;
-int idade;
-float altura;
+std::string diaDaSemana;
 
 
-
-        std::cout<<"qual seu nome: "<<std::endl;
-        std::cin>>nome;
-
-        std::cout<<"Bem vindo(a) "<<nome<<"!!"<<std::endl;
+std::cout<<"que dia e hoje: "<<std::endl;
+std::cin>>diaDaSemana;
 
 
-
-        std::cout<<"Qual sua idade: "<<std::endl;
-        std::cin>>idade;
-
-        std::cout<<"Sua idade e: "<<idade<<"!!"<<std::endl;
-
-
-
-        std::cout<<"qual sua altura?: "<<std::endl;
-        std::cin>>altura;
-
-        std::cout<<"sua altura e: "<<altura<<"!!"<<std::endl;
+std::cout<<"hoje e "<<diaDaSemana<<"!!"<<std::endl;
 
 
 
