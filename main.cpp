@@ -14,6 +14,8 @@ std::cin>>a;
 std::cout<<"Digite um valor para b: "<<std::endl;
 std::cin>>b;
 
+std::cout<<(a > b)<<std::endl;
+std::cout<<( a >= b )<<std::endl;
 
         return 0;
 }
