@@ -1,19 +1,18 @@
 #include<iostream>
-#include<iomanip>
+
 
 int main(){ 
 
-std::string diaDaSemana;
+int a;
+int b;
+//int a, b;
+
+std::cout<<"Digite um valor para a: "<<std::endl;
+std::cin>>a;
 
 
-std::cout<<"que dia e hoje: "<<std::endl;
-std::cin>>diaDaSemana;
-
-
-std::cout<<"hoje e "<<diaDaSemana<<"!!"<<std::endl;
-
-
-
+std::cout<<"Digite um valor para b: "<<std::endl;
+std::cin>>b;
 
 
         return 0;
