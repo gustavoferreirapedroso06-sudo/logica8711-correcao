@@ -3,20 +3,14 @@
 
 int main(){ 
 
-int a;
-int b;
-//int a, b;
-
-std::cout<<"Digite um valor para a: "<<std::endl;
-std::cin>>a;
+int soma1 = 100 + 50;
+int soma2 = soma1 + 50;
+int soma3 = soma2 +100;
 
 
-std::cout<<"Digite um valor para b: "<<std::endl;
-std::cin>>b;
+std::cout<<soma2<<std::endl;
+std::cout<<soma3<<std::endl;
 
-
-std::cout<<(a != b )<<std::endl;
-std::cout<<(a == b )<<std::endl;
 
 
         return 0;
