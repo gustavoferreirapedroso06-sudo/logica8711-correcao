@@ -3,18 +3,13 @@
 
 int main(){ 
 
-        bool condicaot = true;
 
-        bool condicaof = false;
+char letra = 'G';
 
-
-
-        std::cout<<condicaot<<std::endl;
-
-        std::cout<<condicaof<<std::endl;
+std::cout<<letra<<std::endl;
 
 
-        
+
 
 
 
