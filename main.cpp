@@ -3,11 +3,20 @@
 
 int main(){ 
 
-        bool condicao = true;
+        bool condicaot = true;
 
-        std::cout<<condicao<<std::endl;
+        bool condicaof = false;
 
-//
+
+
+        std::cout<<condicaot<<std::endl;
+
+        std::cout<<condicaof<<std::endl;
+
+
+        
+
+
 
 
         return 0;
