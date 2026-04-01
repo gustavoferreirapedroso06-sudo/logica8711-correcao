@@ -4,9 +4,15 @@
 int main(){ 
 
 
-char letra = 'G';
+        auto num1 = 10;
+        auto num2 = 15.80f;
+        auto letra = 'G';
+        auto texto = "Gustavo";
 
-std::cout<<letra<<std::endl;
+        std::cout<<num1<<std::endl;
+        std::cout<<num2<<std::endl;
+        std::cout<<letra<<std::endl;
+        std::cout<<texto<<std::endl;
 
 
 
