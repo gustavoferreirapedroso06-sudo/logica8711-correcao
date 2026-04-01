@@ -3,16 +3,29 @@
 
 int main(){ 
 
+        std::string nome;
+        int idade;
+        int ano = 2026;
+        int soma, subt, mult, div;
 
-        auto num1 = 10;
-        auto num2 = 15.80f;
-        auto letra = 'G';
-        auto texto = "Gustavo";
 
-        std::cout<<num1<<std::endl;
-        std::cout<<num2<<std::endl;
-        std::cout<<letra<<std::endl;
-        std::cout<<texto<<std::endl;
+
+
+std::cout<<"Por favor digite seu nome: "<<std::endl;
+std::cin>>nome;
+
+std::cout<<"qual sua idade: "<<std::endl;
+std::cin>>idade;
+
+
+
+
+subt = idade - ano;
+
+
+std::cout<<idade - ano<<std::endl;
+
+
 
 
 
