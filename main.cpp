@@ -3,29 +3,11 @@
 
 int main(){ 
 
-        std::string nome;
-        int idade;
-        int ano = 2026;
-        int soma, subt, mult, div;
+int result1 = 4 + 4 *2;
+int result2 = 4 + 2 / 2;
 
-
-
-
-std::cout<<"Por favor digite seu nome: "<<std::endl;
-std::cin>>nome;
-
-std::cout<<"qual sua idade: "<<std::endl;
-std::cin>>idade;
-
-
-
-
-subt = idade - ano;
-
-
-std::cout<<idade - ano<<std::endl;
-
-
+std::cout<<"o resultado numero 1 e: "<<result1<<std::endl;
+std::cout<<"o resultado numero 2 e: "<<result2<<std::endl;
 
 
 
