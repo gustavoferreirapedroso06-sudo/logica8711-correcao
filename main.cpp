@@ -3,17 +3,13 @@
 
 int main(){ 
 
-std::string nome = "Gustavo";
-std::string sobrenome = "ferreira";
+std::string nome;
+std::string sobrenome = " Ferreira";
 
-std::cout<<nome + " " + sobrenome<<std::endl;
+std::cout<<"digite seu nome "<<std::endl;
+std::cin>>nome;
 
-
-
-
-
-
-
+std::cout<<nome.append(sobrenome);
 
 
 
