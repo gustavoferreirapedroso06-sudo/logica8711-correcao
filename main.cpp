@@ -3,9 +3,9 @@
 
 int main(){ 
 
-int gustavo [5] = {10,20,30,40,50}
+int gustavo[5] = {10,20,30,40,50}
 
-std::cout<<[1];
+std::cout<<gustavo[1];
 
 
 
