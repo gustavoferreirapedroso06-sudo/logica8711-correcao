@@ -5,10 +5,11 @@ int main(){
 
 std::string nome = "Gustavo";
 
-std::cout<<nome[0];
-std::cout<<nome[1]      
+std::cout<<nome[0]<<std::endl;
+std::cout<<nome[2]<<std::endl;      
 std::cout<<nome[nome.length() - 1]<<std::endl;
-
+nome[0] = 'A';
+std::cout<<nome<<std::endl;
 
         return 0;
 }
