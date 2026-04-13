@@ -12,7 +12,10 @@ if(idade < 0){
         std::cout<<"Idade invalida!!"<<std::endl;
 } else if(idade <= 2){
         std::cout<<"Voce e um bebe! "<<std::endl;
+} else if(idade <= 8 ){
+        std::cout<<"Voce e uma crianca!"<<std::endl;
 }
+
 
 
 
