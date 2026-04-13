@@ -3,27 +3,31 @@
 
 int main(){ 
 
-int idade;
+int opcaoPagamento;
+int qtdParafuso;
+float valorParafuso = 1.40;
+float valorTotalParafuso;
+float desconto;
 
-std::cout<<"Digite sua idade: "<<std::endl;
-std::cin>>idade;
+std::cout<<"digite a quantidade de parafuso desejada"<<std::endl;
+std::cin>>qtdParafuso;
 
-if(idade < 0){
-        std::cout<<"Idade invalida!!"<<std::endl;
-} else if(idade <= 2){
-        std::cout<<"Voce e um bebe! "<<std::endl;
-} else if(idade <= 8 ){
-        std::cout<<"Voce e uma crianca!"<<std::endl;
-} else if(idade <=16){
-        std::cout<<"Voce e um(a) adolescente!"<<std::endl;
-} else if(idade <=60){
-        std::cout<<"Voce e adulto(a)!"<<std::endl;
-} else{
-        std::cout<<"Voce e um(a) senior!!"<<std::endl;
+valorTotalParafuso = qtdParafuso * valorParafuso;
+
+std::cout<<"qual a forma de pagamento: "<<std::endl;
+std::cout<<"--- 1 - Pix"<<std::endl;
+std::cout<<"--- 2 - Dinheiro"<<std::endl;
+std::cout<<"--- 3 - Cartão"<<std::endl;
+std::cin>>opcaoPagamento;
+
+if(opcaoPagamento == 1 ){
+        std::cout<<"Sua compra ficou no valor total de R$: "<<valorTotalParafuso<<std::endl;
+} else if (opcaoPagamento == 2){
+        desconto = valorTotalParafuso *0.99;
+        std::cout<<"sua compra ficou no valor total de R$: "<<desconto<<std::endl;
+}else{
+        std::cout<<"sua compra ficou no valor total de R$: "<<valorTotalParafuso<<std::endl;
 }
-
-
-
 
 
 
