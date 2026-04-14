@@ -12,7 +12,6 @@ std::cin>>nome;
 
 std::cout<<"ola "<<nome<< " informe sua altura: "<<std::endl;
 std::cin>>altura;
-}
 
 std::cout<<"otimo "<<nome<< " agora que sabemos sua altura que e de: " <<altura<< " , informe sua idade para que possamos matricular na sua respectiva turma"<<std::endl; 
 std::cin>>idade;
