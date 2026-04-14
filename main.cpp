@@ -29,6 +29,15 @@ std::cin>>idade;
 }
 
 
+ if(idade <= 10 ){
+                std::cout<<"Seja bem vindo a turma infantil " <<nome<< "" <<std::endl;
+} else if(idade <= 18){
+        std::cout<<"Seja bem vindo a turma de adolescentes " <<nome<< "" <<std::endl;
+} else if(idade <= 60){
+         std::cout<<"Muito bem vindo senhor(a) "<<nome<<" a turma dos adultos "<<std::endl;
+} else{
+        std::cout<<"Seja bem vindo a turma de JOVENS EXPERIENTES"<<std::endl;
+}
 
 
 
