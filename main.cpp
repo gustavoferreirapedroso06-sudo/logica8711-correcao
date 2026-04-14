@@ -3,32 +3,35 @@
 
 int main(){ 
 
-int opcaoPagamento;
-int qtdParafuso;
-float valorParafuso = 1.40;
-float valorTotalParafuso;
-float desconto;
-float juros;
-std::cout<<"digite a quantidade de parafuso desejada"<<std::endl;
-std::cin>>qtdParafuso;
+std::string nome;
+float altura;
+int idade;
 
-valorTotalParafuso = qtdParafuso * valorParafuso;
+std::cout<<"bem vindo, por gentileza informe seu nome: "<<std::endl;
+std::cin>>nome;
 
-std::cout<<"qual a forma de pagamento: "<<std::endl;
-std::cout<<"--- 1 - Pix"<<std::endl;
-std::cout<<"--- 2 - Dinheiro"<<std::endl;
-std::cout<<"--- 3 - Cartão"<<std::endl;
-std::cin>>opcaoPagamento;
-
-if(opcaoPagamento == 1 ){
-        std::cout<<"Sua compra ficou no valor total de R$: "<<valorTotalParafuso<<std::endl;
-} else if (opcaoPagamento == 2){
-        desconto = valorTotalParafuso *0.99;
-        std::cout<<"sua compra ficou no valor total de R$: "<<desconto<<std::endl;
-}else{
-        juros = valorTotalParafuso * 0.10;
-        std::cout<<"sua compra ficou no valor total de R$: "<<valorTotalParafuso<<std::endl;
+std::cout<<"ola "<<nome<< " informe sua altura: "<<std::endl;
+std::cin>>altura;
 }
+
+std::cout<<"otimo "<<nome<< " agora que sabemos sua altura que e de: " <<altura<< " , informe sua idade para que possamos matricular na sua respectiva turma"<<std::endl; 
+std::cin>>idade;
+
+
+
+ if(idade <= 10 ){
+                std::cout<<"Seja bem vindo a turma infantil " <<nome<< "" <<std::endl;
+} else if(idade <= 18){
+        std::cout<<"Seja bem vindo a turma de adolescentes " <<nome<< "" <<std::endl;
+} else if(idade <= 60){
+         std::cout<<"Muito bem vindo senhor(a) "<<nome<<" a turma dos adultos "<<std::endl;
+} else{
+        std::cout<<"Seja bem vindo a turma de JOVENS EXPERIENTES"<<std::endl;
+}
+
+
+
+
 
 
 
