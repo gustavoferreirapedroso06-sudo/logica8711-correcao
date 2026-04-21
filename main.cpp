@@ -3,20 +3,15 @@
 int main()
 {
 
-int num;
+int quantidade;
 
-
-
-do{std::cout<<"Digite um valor para num: "<<std::endl;
-std::cin>>num;
-
-if (num <1 || num > 10){
-        std::cout<<"entrada invalida!!"<<std::endl;
+do{
+        std::cout<<"Digite a quantidade disponivel em estoque (Deve ser maior que 0): "<<std::endl;
+        std::cin>>quantidade;
 }
+while(quantidade <= 0);
 
-}while(num <= 10 || num >= 10);{
-        std::cout<<"Numero ok!"<<std::endl;
-}
+std::cout<<"Estoque atualizado: "<<quantidade<<" unidades."<<std::endl;
 
 
 
