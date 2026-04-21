@@ -5,10 +5,16 @@ int main()
 
 int num;
 
-std::cout<<"Digite um numero entre 0 a 10: "<<std::endl;
+
+
+do{std::cout<<"Digite um valor para num: "<<std::endl;
 std::cin>>num;
 
-while(num <= 10 && num >= 0){
+if (num <1 || num > 10){
+        std::cout<<"entrada invalida!!"<<std::endl;
+}
+
+}while(num <= 10 || num >= 10);{
         std::cout<<"Numero ok!"<<std::endl;
 }
 
