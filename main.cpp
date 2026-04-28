@@ -1,17 +1,17 @@
 #include <iostream>
+#include <vector>
+
 
 int main()
 {
 
-int quantidade;
+        std::vector<std::string>cars = {"Volvo", "BMW", "Mercedes"};
 
-do{
-        std::cout<<"Digite a quantidade disponivel em estoque (Deve ser maior que 0): "<<std::endl;
-        std::cin>>quantidade;
-}
-while(quantidade <= 0);
+        cars.push_back("Mazda");
 
-std::cout<<"Estoque atualizado: "<<quantidade<<" unidades."<<std::endl;
+        for(std::string car : cars){
+                std::cout<<car<<std::endl;
+        }
 
 
 
