@@ -1,22 +1,15 @@
 #include <iostream>
-
+#include <string>
 
 int main()
 {
 
-int totalseconds 
+std::string nomeCompleto;
 
-std::cout<<"enter total seconds: "<<std::endl;
-std::cin>>totalseconds;
+std::cout<<"Digite o nome completo do aluno: "<<std::endl;
+std::getline(std::cin, nomeCompleto);
 
-int minutes = totalseconds / 60;
-int seconds = totalseconds % 60;
-
-std::cout<<"time: "<<minutes<< "minutes and"<<seconds<<"seconds."<<std::endl;
-
-
-
-
+std::cout<<nomeCompleto<<std::endl;
 
      return 0;
 }
